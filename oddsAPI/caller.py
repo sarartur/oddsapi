@@ -4,7 +4,7 @@ import json
 from typing import List, Dict, Optional
 from urllib.parse import urlencode
 
-from oddsAPI.errors import OddsClientError
+from oddsapi.errors import OddsClientError
 
 
 class OddsClient(object):

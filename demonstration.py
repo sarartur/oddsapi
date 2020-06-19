@@ -1,4 +1,4 @@
-from oddsAPI import OddsClient
+from oddsapi import OddsClient
 
 #get your Api key at https://the-odds-api.com/
 API_KEY = "Your Api Key Here"

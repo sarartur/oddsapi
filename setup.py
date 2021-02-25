@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="oddsapi", 
-    version="1.1.0",
+    version="1.1.2",
     author="Artur Saradzhyan",
     author_email="saradzhyanartur@gmail.com",
-    description="Python Wrapper around The Odds-Api",
+    description="Python bindings for The Odds-Api",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/sarartur/oddsapi",

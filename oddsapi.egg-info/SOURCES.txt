@@ -1,0 +1,9 @@
+README.md
+setup.py
+oddsapi/__init__.py
+oddsapi/caller.py
+oddsapi/errors.py
+oddsapi.egg-info/PKG-INFO
+oddsapi.egg-info/SOURCES.txt
+oddsapi.egg-info/dependency_links.txt
+oddsapi.egg-info/top_level.txt

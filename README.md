@@ -1,5 +1,5 @@
 <img src="https://img.shields.io/github/issues/sarartur/oddsapi">  <img src="https://img.shields.io/github/forks/sarartur/oddsapi">   <img src="https://img.shields.io/github/stars/sarartur/oddsapi">   <img src="https://img.shields.io/github/license/sarartur/oddsapi">
-# The Odds-Api.
+# The Odds-Api
 ### Installation
 The package requires Python 3.7 or higher.
 Install latest version from PyPI: `pip install oddsapi`

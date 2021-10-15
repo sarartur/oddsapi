@@ -49,7 +49,7 @@ cors = [client.retrieve_odds(
     sport_key=sport.key,
     region='us',
     mkt='spreads'
-) for sport in response.data[:4]]
+) for sport in response.data[:4]] 
 responses = client.loop.run_until_complete(gather(*cors))
 ```
 Keep in mind that `rate_info` will not be recorded in order.

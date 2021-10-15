@@ -1,2 +1,2 @@
-from oddsapi.caller import OddsClient
-from oddsapi.errors import OddsClientError
+from .client import OddsApiClient
+from .exceptions import OddsClientError

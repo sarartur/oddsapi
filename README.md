@@ -20,11 +20,21 @@ The response is a custom object that stores the data in nested namespaces and di
 ```python
 response.data[0]
 
->>> Collection(active=True, details='US College Football', group='American Football', has_outrights=False, key='americanfootball_ncaaf', title='NCAAF')
+>>> Collection(active=True, 
+        details='US College Football', 
+        group='American Football', 
+        has_outrights=False, 
+        key='americanfootball_ncaaf', 
+        title='NCAAF')
 
 #alternatively
 response.json['data'][0]
->>> {'key': 'americanfootball_ncaaf', 'active': True, 'group': 'American Football', 'details': 'US College Football', 'title': 'NCAAF', 'has_outrights': False}
+>>> {'key': 'americanfootball_ncaaf', 
+        'active': True, 
+        'group': 'American Football', 
+        'details': 'US College Football', 
+        'title': 'NCAAF', 
+        'has_outrights': False}
 
 response.rate_info
 >>> {'requests_remaining': '479', 'requests_used': '21'}

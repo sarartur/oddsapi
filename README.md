@@ -11,9 +11,8 @@ Please refer to [documentation](https://the-odds-api.com/liveapi/guides/v3/) for
 To start using the wrapper import and initialize the `OddsApiClient` from the package. 
 ``` python
 from oddsapi import OddsApiClient
-from app_secrets import API_KEY
 
-client = OddsApiClient(api_key=API_KEY)
+client = OddsApiClient(api_key='YOUR KEY')
 response = client.retrieve_sports()
 ```
 The response is a custom object that stores the data in nested namespaces and dictionary format.
@@ -39,7 +38,7 @@ response.json['data'][0]
 response.rate_info
 >>> {'requests_remaining': '479', 'requests_used': '21'}
 ```
-The client also be configured to work with `asyncio`.
+The client can also be configured to work with `asyncio`.
 
 ```python
 from asyncio import gather

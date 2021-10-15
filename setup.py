@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="oddsapi", 
-    version="1.2.2",
+    version="1.2.4",
     author="Artur Saradzhyan",
     author_email="saradzhyanartur@gmail.com",
     description="Python wrapper for The Odds-Api",

@@ -13,8 +13,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/sarartur/oddsapi",
     packages=setuptools.find_packages(),
-    install_requires=['aiohttp==3.7.4.post0', ],
-    setup_requires=['aiohttp==3.7.4.post0', ],
+    install_requires=['aiohttp==3.8.5', ],
+    setup_requires=['aiohttp==3.8.5', ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
